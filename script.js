@@ -13,7 +13,8 @@ function renderInventory() {
     card.classList.add('card');
 
     // Use the uploaded image or a placeholder if none exists
-    const imageSrc = item.image ? item.image : 'https://via.placeholder.com/300x180?text=No+Image';
+    const imageSrc = item.image ? item.image : 'https://raw.githubusercontent.com/zorotechcar/inventory/main/logo.jpg
+';
 
     card.innerHTML = `
       <img src="${imageSrc}" alt="${item.name}">
